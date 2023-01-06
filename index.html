@@ -10,6 +10,8 @@
         <link rel="icon" type="image/x-icon" href="assets/img/LOGO-atep-navbar-pasadoporwp.jpg" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Script para enviar consultas -->
+        <script src="/js/contact.js"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
@@ -268,7 +270,10 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Consulta</h2>
-                    <h3 class="section-subheading text-muted">Escribenos en el formulario tus datos, y luego haz la consulta</h3>
+                    <h3 class="section-subheading text-muted"><b>
+
+                        Estamos construyendo este servicio. ¡Pronto podrás contactarte con nosotros con este medio! Por lo pronto, al final de la página encontrarás otras formas de hacerlo. ¡Muchas gracias!</h3>
+                    </b>
                 </div>
                 <!-- * * * * * * * * * * * * * * *-->
                 <!-- * * SB Forms Contact Form * *-->
@@ -282,8 +287,8 @@
                         <div class="col-md-6">
                             <div class="form-group">
                                 <!-- Name input-->
-                                <input class="form-control" id="name" type="text" placeholder="Tu nombre y apellido *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">Se requiere nombre.</div>
+                                <input class="form-control" id="nombre" type="text" placeholder="Tu nombre y apellido *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="nombre:required">Se requiere nombre.</div>
                             </div>
                             <div class="form-group">
                                 <!-- Email address input-->
@@ -309,19 +314,24 @@
                     <!---->
                     <!-- This is what your users will see when the form-->
                     <!-- has successfully submitted-->
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center text-white mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
-                            <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                    <!--
+
+                        <div class="d-none" id="submitSuccessMessage">
+                            <div class="text-center text-white mb-3">
+                                <div class="fw-bolder">Form submission successful!</div>
+                                To activate this form, sign up at
+                                <br />
+                                <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                            </div>
                         </div>
-                    </div>
+                    -->
                     <!-- Submit error message-->
                     <!---->
                     <!-- This is what your users will see when there is-->
                     <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">¡Error al enviar mensaje!</div></div>
+                    <!--
+                        <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">¡Error al enviar mensaje!</div></div>
+                    -->
                     <!-- Submit Button-->
                     <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Enviar Mensaje</button></div>
                 </form>
@@ -336,8 +346,6 @@
                         <a href="mailto:prensa@atep.com.ar">prensa@atep.com.ar</a><br>
                         (0381) 4213090 - 4227126 - 4301003<br>
                         San Lorenzo 434 - Sede Central <br> 
-                        Todos los derechos reservados ©
-                        
                     </div>
                     <div class="col-lg-2 my-3 my-lg-0">
                         <!-- <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a> -->
@@ -349,7 +357,8 @@
                         
                         <a class="link-dark text-decoration-none me-3" href="#!">Benjamin Brito</a>
                         <a class="link-dark text-decoration-none me-3" href="#!">|</a>
-                        <a class="link-dark text-decoration-none" href="https://www.linkedin.com/in/brito-augusto/" target="_blank">Augusto Brito</a>
+                        <a class="link-dark text-decoration-none" href="https://www.linkedin.com/in/brito-augusto/" target="_blank">Augusto Brito</a><br>
+                        Todos los derechos reservados ©
                     </div>
                 </div>
             </div>
