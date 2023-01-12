@@ -11406,8 +11406,8 @@ p {
   }
 }
 header.masthead {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
+  padding-top: 4.5rem;
+  padding-bottom: 1rem;
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/frente-atep-googlemaps copia.png");
@@ -11433,8 +11433,8 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 17rem;
-    padding-bottom: 12.5rem;
+    padding-top: 6rem;
+    padding-bottom: 0rem;
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
@@ -11783,3 +11783,4 @@ section#contact form#contactForm :-ms-input-placeholder {
   height: 500px;
 
 }
+

@@ -30,6 +30,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="./pages/noticias.html" target="_blank">Noticias</a></li>
                         <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Turismo</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">Nuestra Historia</a></li>
@@ -43,11 +44,46 @@
         </nav>
         <!-- Masthead-->
         <header class="masthead">
-            <div class="container">
-                <div class="masthead-subheading">Bienvenidos a la pagina oficial</div>
-                <div class="masthead-heading text-uppercase fs-1">Agremiación Tucumana de Educadores Provinciales</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Ver Más</a>
-            </div>
+                    <div id="carouselExampleCaptions" class="carousel slide col-12">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="./assets/img/carrousel/argentina.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>“Argentina, 1985”: el festejo futbolero que abre un camino exitoso</h5>
+                                <p>Era uno más en la mesa del elenco de “Argentina, 1985” en la cena de los Globos de Oro y celebró eufórico que el filme haya obtenido el galardón a mejor producción de habla no inglesa. No aparece en persona en pantalla, pero sí su historia.</p>
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./assets/img/carrousel/leito.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>El Frente de Todos apura el pedido de juicio político</h5>
+                                <p>Los miembros de la Comisión de Juicio Político de la Cámara Baja se reunieron con el objetivo de agilizar el trámite.</p>
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./assets/img/carrousel/atu.webp" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Atlético Tucumán juega su segundo amistoso en Uruguay</h5>
+                                <p>Desde las 18.15, visitará a Boston River en Montevideo, con el objetivo de seguir ganando ritmo. El partido se verá por Star+.</p>
+                            </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </div>
+                    <a class="btn btn-primary btn-xl text-uppercase mt-5 mb-5" href="./pages/noticias.html" target="_blank">Ir a noticias</a>
+
         </header>
         <!-- Services-->
         <section class="page-section" id="services">
