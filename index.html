@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>ATEP Tucumán</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/atep-chiquito.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Script para enviar consultas -->
+        <script src="/js/contact.js"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><img src="assets/img/logo2-navbar.png" alt="..." /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="./pages/noticias.html">NOTICIAS</a></li>
+                        <li class="nav-item dropdown">
+                            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                              SECRETARIAS
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                              <li><a class="dropdown-item" href="pages/secretariadeprensa.html">SECRETARIA DE PRENSA</a></li>
+                              <li><a class="dropdown-item" href="/pages/secretariadedeportes.html">SECRETARIA DE DEPORTES</a></li>
+                              <li><a class="dropdown-item" href="/pages/secretariadeturismo.html">SECRETARIA DE TURISMO</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                              INSTITUCION
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                              <li><a class="dropdown-item" href="/pages/nuestrahistoria.html">NUESTRA HISTORIA</a></li>
+                              <li><a class="dropdown-item" href="/pages/comisiondirectiva.html">COMISION DIRECTIVA</a></li>
+                              <li><a class="dropdown-item" href="#">ORGANIGRAMA</a></li>
+                              <li><a class="dropdown-item" href="#">SEDES FILIALES</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Consulta</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+                    <div id="carouselExampleCaptions" class="carousel slide col-12">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img src="./assets/img/carrousel/argentina.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>“Argentina, 1985”: el festejo futbolero que abre un camino exitoso</h5>
+                                <p>Era uno más en la mesa del elenco de “Argentina, 1985” en la cena de los Globos de Oro y celebró eufórico que el filme haya obtenido el galardón a mejor producción de habla no inglesa. No aparece en persona en pantalla, pero sí su historia.</p>
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./assets/img/carrousel/leito.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>El Frente de Todos apura el pedido de juicio político</h5>
+                                <p>Los miembros de la Comisión de Juicio Político de la Cámara Baja se reunieron con el objetivo de agilizar el trámite.</p>
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./assets/img/carrousel/atu.webp" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Atlético Tucumán juega su segundo amistoso en Uruguay</h5>
+                                <p>Desde las 18.15, visitará a Boston River en Montevideo, con el objetivo de seguir ganando ritmo. El partido se verá por Star+.</p>
+                            </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </div>
+                    <a class="btn btn-primary btn-xl text-uppercase mt-5 mb-5" href="./pages/noticias.html" target="_blank">Ir a noticias</a>
+
+        </header>
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Servicios</h2>
+                    <!--
+                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    -->
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-6">
+                        <span class="fa-stack fa-5x">
+                            <i class="bi bi-building-fill text-primary "></i>
+                        </span>
+                        <h4 class="my-3">Gremial</h4>
+                        <p class="text-muted">Junto a tu apoyo, defendemos los derechos de los docentes tucumanos</p>
+                    </div>
+                    <div class="col-md-6">
+                        <span class="fa-stack fa-5x">
+                            <!-- <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i> -->
+                            <i class="bi bi-truck-front text-primary"></i>
+                        </span>
+                        <h4 class="my-3">Turismo</h4>
+                        <p class="text-muted">Múltiples hosterías en los principales puntos turísticos de Tucumán.</p>
+                    </div>
+                    <!-- <div class="col-md-4">
+                        <span class="fa-stack fa-5x">
+                            <i class="bi bi-newspaper text-primary"></i>
+                        </span>
+                        <h4 class="my-3">Cultura</h4>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Turismo y Deporte</h2>
+                    <!--
+
+                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    -->
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/hosteria-tafi-del-valle.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Tafi del Valle</div>
+                                <div class="portfolio-caption-subheading text-muted">Hostería</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/hosteria-sp.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">San Pedro de Colalao</div>
+                                <div class="portfolio-caption-subheading text-muted">Hosteria</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/san pedro colalao/foto-frente-complejo-atep.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Complejo ATEP</div>
+                                <div class="portfolio-caption-subheading text-muted">Av. Adolfo de la Vega</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        
+                </div>
+            </div>
+        </section>
+        <!-- About-->
+        <!-- Team-->
+        
+        <!-- Clients-->
+        <!-- <div class="py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="..." aria-label="Microsoft Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg" alt="..." aria-label="Google Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="..." aria-label="Facebook Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." aria-label="IBM Logo" /></a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Consulta</h2>
+                    <h3 class="section-subheading text-primary"><b>
+
+                        Estamos construyendo este servicio. ¡Pronto podrás contactarte con nosotros con este medio! Por lo pronto, debajo en "Contacto" encontrarás otras formas de hacerlo. ¡Muchas gracias!</h3>
+                    </b>
+                </div>
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- * * SB Forms Contact Form * *-->
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- This form is pre-integrated with SB Forms.-->
+                <!-- To make this form functional, sign up at-->
+                <!-- https://startbootstrap.com/solution/contact-forms-->
+                <!-- to get an API token!-->
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <!-- Name input-->
+                                <input class="form-control" id="nombre" type="text" placeholder="Tu nombre y apellido *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="nombre:required">Se requiere nombre.</div>
+                            </div>
+                            <div class="form-group">
+                                <!-- Email address input-->
+                                <input class="form-control" id="email" type="email" placeholder="Tu Email *" data-sb-validations="required,email" />
+                                <div class="invalid-feedback" data-sb-feedback="email:required">Se requiere nombre.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">El email no es válido.</div>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <!-- Phone number input-->
+                                <input class="form-control" id="phone" type="tel" placeholder="Tu numero de celular *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">Se requiere un número de teléfono.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <!-- Message input-->
+                                <textarea class="form-control" id="message" placeholder="Escribenos un mensaje *" data-sb-validations="required"></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">Se requiere un mensaje.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Submit success message-->
+                    <!---->
+                    <!-- This is what your users will see when the form-->
+                    <!-- has successfully submitted-->
+                    <!--
+
+                        <div class="d-none" id="submitSuccessMessage">
+                            <div class="text-center text-white mb-3">
+                                <div class="fw-bolder">Form submission successful!</div>
+                                To activate this form, sign up at
+                                <br />
+                                <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                            </div>
+                        </div>
+                    -->
+                    <!-- Submit error message-->
+                    <!---->
+                    <!-- This is what your users will see when there is-->
+                    <!-- an error submitting the form-->
+                    <!--
+                        <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">¡Error al enviar mensaje!</div></div>
+                    -->
+                    <!-- Submit Button-->
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Enviar Mensaje</button></div>
+                </form>
+            </div>
+        </section>
+
+        <section class="page-section bg-light" id="contacto">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contacto</h2>
+                    <p> <strong> Para mas informacion, podes encontrarnos en </strong></p>
+                    <!--
+                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    -->
+                </div>
+                <div class="row">
+                    <section class="text-center col-12 d-flex flex-column flex-lg-row pt-5 pb-0 ">
+                        <article class="col-12 col-lg-6">
+                          <div class="mb-0 px-3 px-lg-5 ms-lg-5">
+                            <i class="bi bi-geo-alt fs-2 text-primary"></i>
+                            <h4 class="text-center">SAN LORENZO 434 (Sede central)</h4>
+                          </div>
+                          <div class="mb-0 px-3 px-lg-5 ms-lg-5 pt-3">
+                            <i class="bi bi-telephone fs-2 text-primary"></i>
+                            <h4 class="text-center">(0381) 4213090 <br> 4227126 <br> 4301003</h4>
+                          </div>
+                          <div class="mb-0 px-3 px-lg-5 ms-lg-5 pt-3">
+                            <i class="bi bi-envelope-at fs-2 text-primary"></i>
+                            <a href="mailto:prensa@atep.com.ar"><h4>prensa@atep.com.ar</h4></a>
+                          </div>
+                          <div class="mb-0 px-3 px-lg-5 ms-lg-5 pt-3">
+                            <i class="bi bi-facebook fs-2 text-primary"></i>
+                            <a href="https://www.facebook.com/people/Agremiaci%C3%B3n-Tucumana-de-Educadores-Provinciales-ATEP-Oficial/100088243245687/" target="_blank"><h4 class="text-center">Facebook Oficial</h4></a>
+                          </div>
+                        </article>
+                        <article class="col-12 col-lg-6 w-lg-100 mapa-container">
+                          <iframe class="px-1 mt-lg-0 pt-0 pt-lg-0 pt-5 mapa-google w-100 pe-lg-1 pb-1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.18918270592!2d-65.20663478433683!3d-26.83393449638748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c0fc0a983cf%3A0xce39460e77d92101!2sATEP%20Sede%20Central%20C%C3%A9sar%20Am%C3%A9rico%20Zelaray%C3%A1n!5e0!3m2!1ses-419!2sar!4v1672982144755!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> </iframe>
+                        </article>
+                      </section>
+                </div>
+                <!--
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
+                    </div>
+
+                -->
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4 bg-secondary">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 text-lg-start">
+                        <img class="col-5" src="./assets/img/LOGO-ATEP-HD.png" alt="">
+                    </div>
+                    <div class="col-lg-2 my-3 pt-4 my-lg-0">
+                        <!-- <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a> -->
+                        <!-- <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/profile.php?id=100088243245687" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a> -->
+                        <!-- <p class="my-1">Facebook oficial de ATEP</p> --> 
+                        <!-- <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a> -->
+                    </div>
+                    <div class="col-lg-5 text-lg-end">  
+                        <a class="link-dark text-decoration-none text-white" href="https://www.linkedin.com/in/brito-augusto/" target="_blank">BUGHO</a><br>
+                        <p class="text-white"> Todos los derechos reservados ©</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">HOSTERIA TAFI DEL VALLE</h2>
+                                    <p class="item-intro text-muted">TAFÍ DEL VALLE - TUCUMÁN</p>
+                                    <p class="text-start">La Hostería Gremial de ATEP en Tafí del Valle, se encuentra ubicada a una cuadra de la calle principal, en Av. Gobernador Campero y Menhires. Tiene una hermosa y privilegiada vista a los cerros calchaquíes, cuenta con calefacción central y una amplia de estacionamiento que invitamos a disfrutar en cualquier momento del año.
+                                        <br><br>
+                                        Nuestra hostería cuenta con modernas y confortables habitaciones que permiten albergar a un centenar de turistas. Dispone de siete (7) habitaciones en planta baja, dieciseis (16) en planta alta y ocho (8) habitaciones con balcón hacia el exterior, lo que permite tener una vista privilegiada de la zona céntrica y de los conocidos cerros calchaquíes.
+                                        <br><br>
+                                        Todas las habitaciones disponibles cuentan con baño privado.
+                                        <br><br>
+                                        Dentro de las comodidades se incluyen una sala de estar (con un generoso espacio recreativo), galería cubierta (testigo en diversos momentos del año de reuniones sociales, interminables rondas de mate y de juegos entre los compañeros docentes) y un amplio jardín totalmente parquizado.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/hosteria-tafi-del-valle.jpg" alt="..." />
+                                    <p class="text-start">La ciudad de Tafí del Valle se ubica prácticamente en el centro del bellísimo Valle del Tafí, que separa las elevadas cordilleras de la Sierra del Aconquija al sur y las Cumbres Calchaquíes al norte. Se encuentra ubicada en el departamento homónimo, del cual es cabecera, en la zona oeste de la provincia a 126 Km. de San Miguel de Tucumán.
+                                    <br><br>
+                                    Se comunica con la ciudad de San Miguel de Tucumán a través de la Ruta Nacional 38 y la Ruta Provincial 307.
+                                    <br><br>
+                                    Ubicado a 2.000 metros de altura sobre el nivel del mar, conjuga hermosos paisajes y un clima ideal para el descanso en cualquier época del año; inclusive es una zona privilegiada por la naturaleza ya que junto a su belleza natural cuenta con un patrimonio cultural muy bien conservado. Se pueden admirar las construcciones de adobe y paja, las pircas de piedra y las artesanías de cerámica.
+                                    <br><br>
+                                    Debido a la altitud, el clima predominante es el templado y algo húmedo - con nevadas invernales -, el sector oriental del valle, precisamente en donde se encuentra la ciudad de Tafí del Valle, es húmedo con un sector de pradera en la que predominan los céspedes, gramíneas y pequeños bosques de coníferas, entre otras especies. Hacia el oeste, la humedad va disminuyendo lo que da lugar a la presencia esporádica de cardones. En la ciudad de Tafí del Valle, las temperaturas máximas promedio de verano (en enero) son de 26° C, las temperaturas máximas promedio invernales (en julio) son de sólo 16° C, siendo frecuentes durante el invierno las temperaturas de hasta - 20°C.</p>
+                                    <br><br>
+                                    <div class="d-flex pb-5">
+                                        <i class="bi bi-geo-alt fs-4 text-primary pe-3 "></i> 
+                                        <a class="text-start pt-2" href="https://goo.gl/maps/84SsXDwm72VBGwCy5" target="_blank"><h5>CLICK AQUI PARA VER LA UBICACION DE LA HOSTERIA ATEP (TAFI DEL VALLE)</h5></a>
+                                    </div>
+                                        <!-- <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Threads
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Illustration
+                                        </li>
+                                    </ul> -->
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Cerrar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">HOSTERIA SAN PEDRO DE COLALAO</h2>
+                                    <p class="item-intro text-muted">TRANCAS - TUCUMÁN</p>
+                                    <p class="text-start">San Pedro de Colalao es una pequeña ciudad y Comuna Rural ubicada en el Departamento Trancas, en el noroeste de Tucumán.
+                                        <br><br>
+                                        La Ruta Provincial 311 comunica con la ciudad de Trancas y con la Ruta Nacional 9 que hace el nexo con San Miguel de Tucumán. Una ramal de la mencionada Ruta Provincial 311 recorre las laderas montañosas hasta un pintoresco lugar denominado Rodeo Grande ubicado a unos 35 Km. al sur de San Pedro de Colalao, mientras que una desviación llamada Ruta Provincial 312 baja hacia la zona este bordeando el Río Choromoro, tocando el Dique La Higuera y acercando al antiguo fuerte español de Vipos construido en el Siglo XVII.
+                                        <br><br>
+                                        En el centro del pueblo se ubica la plaza principal denominada Leocadio Paz, en la misma se realizan el 29 de Junio las principales celebraciones dedicadas al Santo Patrono y a la Semana Santa. En otros sitios se encuentran los puestos de artesanos promocionando sus productos consistentes en camperas (chaqueta de cuero abrigadas), rastras (amplios cinturones gauchos adornados con monedas u objetos de alpaca, plata vasca o de plata repujada y nielada con oro u otros metales), sombreros gauchos (por lo general "chambergos" alares), fustas, taleros, trastos y mantas, entre otros productos.
+                                        <br><br>
+                                        En San Pedro de Colalao durante el mes de enero se celebra el Festival Nacional de la Humita, luego en febrero el Festival Nacional del Quesillo y el Festival Nacional de la Nuez. También en febrero (el día 11) se celebra la tradicional procesión a la gruta de la Virgen de Lourdes de Colalao que concentra a muchísimos fieles católicos del mundo
+                                        </p>
+                                        
+                                        
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/san pedro colalao/foto-frente-hosteria-san-pedro.png" alt="..." />
+                                    <p>En San Pedro de Colalao, la hostería está excelentemente ubicada frente a la plaza principal. Cuenta con veintiseis (26) habitaciones en su totalidad y cuya capacidad es totalmente funcional para adaptarse a las distintas necesidades que plantean los integrantes de lois numerosas contingentes turísticos que visitan el lugar en distintos momentos del año.
+                                    <br><br>
+                                    En planta baja disponemos de doce (12) habitaciones y en plata alta catorce (14) nuevas habitaciones que conecta a una galería que recorre todo el primer piso articulándose con la puerta de ingreso. La infraestructura también incluye cómodas habitaciones para personas con capacidades especiales.
+                                    <br><br>   
+                                    Entre los servicios adicionales se incluye el conocido restaurant donde se sirven exquisitos platos regionales y comidas tradicionales a la carta. Disponemos de amplias galerías, patio cubierto y al aire libre junto a un sector específico para estacionamiento de vehículos. Algo muy característico de nuestra hostería es la tradicional parra que permanece en el predio desde el inicio de la construcción del edificio.</p>
+                                    <br><br>
+                                    <div class="d-flex pb-5">
+                                        <i class="bi bi-geo-alt fs-4 text-primary pe-3 "></i> 
+                                        <a class="text-start pt-2" href="https://goo.gl/maps/chwaNy9cugYrskj59" target="_blank"><h5>CLICK AQUI PARA VER LA UBICACION DE LA HOSTERIA ATEP (SAN PEDRO DE COLALAO)</h5></a>
+                                    </div>
+                                    <!-- <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Explore
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Graphic Design
+                                        </li>
+                                    </ul> -->
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                         Cerrar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">COMPLEJO DEPORTIVO ATEP</h2>
+                                    <p class="item-intro text-muted">Pensado para la salud y el bienestar de todos nuestros afiliados y sus familias
+                                    </p>
+                                    <br><br>
+                                    <div class="d-flex pb-5">
+                                        <i class="bi bi-geo-alt fs-4 text-primary pe-3 "></i> 
+                                        <a class="text-start pt-2" href="https://goo.gl/maps/JBxcg5XLD7FtWJyg8" target="_blank"><h5>CLICK AQUI PARA VER LA UBICACION DEL COMPLEJO ATEP (San Miguel de Tucumán)</h5></a>
+                                    </div>
+                                    <!--
+
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/hosteria-amaichadelvalle.jpg" alt="..." />
+                                        <p class="text-start">Esté ubicada en el Departamento Tafí del Valle, en el Noroeste de Tucumán, a 164 Km. de San Miguel de Tucumán y a 57 Km. de la cabecera departamental Tafí del Valle. Se comunica con la ciudad de San Miguel de Tucumán a través de la Ruta Nacional 38 y Ruta Provincial 307.
+                                        <br><br>
+                                        Ubicada a 2.000 metros sobre el nivel del mar, cuenta con la particularidad de que la comunidad Amaicheña presume de ser la dueña de sus propias tierras, a partir de una cédula real entregada por la Corona Española en el año 1716.
+                                        <br><br> 
+                                    <br><br> 
+                                        <br><br> 
+                                        Distingue a la población sus atractivos naturales y culturales, especialmente con la celebración de la Fiesta Nacional de la Pachamama, evento que reúne cada año a miles de personas, combinando reconocimientos ancestrales y la alegría de su pueblo en épocas de Carnaval.
+                                        <br><br>   
+                                    <br><br>   
+                                        <br><br>   
+                                        Se recomienda visitar especialmente Los Zazos (junto a su Dique), Ampimpa, El Tío, y Caspinchango, lugares que presentan una mística muy particular y que invitamos a descubrir.</p>
+                                    -->
+                                    <!-- <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Finish
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Identity
+                                        </li>
+                                    </ul> -->
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Cerrar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+        <!--
+            <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+        -->
+    </body>
+</html>
